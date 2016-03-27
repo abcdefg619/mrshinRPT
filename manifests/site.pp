@@ -12,4 +12,5 @@ node 'vm01.linuxmaster.com' {
 	file{'/tmp/testserver':
 		content =>"This is a test server for git .\n ",
 		}
+	include sshd
 }
