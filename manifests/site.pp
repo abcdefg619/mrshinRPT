@@ -13,4 +13,5 @@ node 'vm01.linuxmaster.com' {
 		content =>"This is a test server for git .\n ",
 		}
 	include sshd
+	include vim_upgrade
 }
